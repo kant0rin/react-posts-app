@@ -1,0 +1,18 @@
+.big_button{
+  margin-top: 20px;
+  width: 100%;
+  background: white;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.5s;
+  text-align: center;
+  padding: 10px;
+
+  &:hover{
+    background: black;
+    color: white;
+  }
+}

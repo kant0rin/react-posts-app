@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  color: #21243D; }
+
+.container {
+  max-width: 1300px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+.content__container {
+  margin-left: auto;
+  margin-right: auto; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit; }
+
+input, button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit; }
+
+input:focus, button:focus {
+  outline: none; }
+
+ul, li {
+  list-style: none; }

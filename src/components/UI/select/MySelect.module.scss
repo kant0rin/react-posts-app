@@ -1,0 +1,17 @@
+.sort{
+
+
+  select {
+    padding: 5px 30px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+
+    option {
+      cursor: pointer;
+      background: none;
+    }
+  }
+}
